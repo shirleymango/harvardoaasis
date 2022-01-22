@@ -1,3 +1,3 @@
 # harvardoaasis
 
-website for harvard oaasis :)
+website for Harvard Organization of Asian American Sisters in Service!
