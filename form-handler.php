@@ -10,8 +10,8 @@ $email_subject = "New Form Submission";
 
 $email_body = "User Name: $name.\n".
                 "User Email: $visitor_email.\n".
-                    "Subject: $subject.\n".
-                    "User Message: $message .\n";
+                 "Subject: $subject.\n".
+                 "User Message: $message .\n";
 
 $to = 'oaasis.harvard@gmail.com';
 
