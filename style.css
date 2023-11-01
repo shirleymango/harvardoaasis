@@ -219,6 +219,7 @@ h2{
 
 h8{
     text-align: center;
+    display: inline;
     /* margin-bottom: -20px */
 }
 
