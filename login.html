@@ -39,20 +39,33 @@
       <form action="login_page.php" method="post">
         <p>
           <label>Email</label>
-          <input type="text" placeholder="name@college.harvard.edu"/>
+          <input type="text" id="email" placeholder="name@college.harvard.edu"/>
         </p>
         <p>
           <label>Password</label>
-          <input type="password" placeholder="password"/>
+          <input type="password" id="password" placeholder="password"/>
         </p>
         <p>
-          <button>Login</button>
+          <button onClick="auth()">Login</button>
         </p>
       </form>
     </div>
   </div>
 
+<script>
+  function auth() {
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
 
+    if (email === "shirleyzhu@college.harvard.edu" && password === "purpleorchid123!") {
+        window.location.replace("./contact.html");
+    } else {
+        alert("Invalid information");
+        return;
+    }
+
+}
+</script>
 <!------------------------ footer ------------------------>
 <section class="footer">
   <h4>
