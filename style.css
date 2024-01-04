@@ -345,8 +345,8 @@ p{
 
 button {
     background-color: #B373D0;
-    color: white;
-    border: none;
+    color: black;
+    border: 2px solid black;
     cursor: pointer;
   }
   
