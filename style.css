@@ -357,7 +357,8 @@ p{
 }
 
 .login {
-    width: 20px;
+    width: 100px;
+    text-align: center;
 }
 
 button {
