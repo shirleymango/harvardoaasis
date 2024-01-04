@@ -356,6 +356,10 @@ p{
     margin-top: 250px;
 }
 
+.login {
+    width: 20px;
+}
+
 button {
     background-color: #B373D0;
     color: black;
