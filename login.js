@@ -3,7 +3,7 @@ function auth() {
     var password = document.getElementById("password").value;
 
     if (email === "shirleyzhu@college.harvard.edu" && password === "purpleorchid123!") {
-        window.location.href = "http://www.w3schools.com";
+        window.location.href = "https://harvardoaasis.com/oasis";
     } else {
         alert("Invalid information");
         return;
