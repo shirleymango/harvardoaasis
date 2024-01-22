@@ -36,7 +36,7 @@ function auth() {
     var password = document.getElementById("password").value;
 
     if (email_array.includes(email) && password === "purpleorchid123!") {
-        window.location.href = "https://harvardoaasis.com/oasis";
+        window.location.href = "https://harvardoaasis.com/internal";
     } else {
         alert("Invalid information");
         return;
