@@ -48,7 +48,7 @@ function auth() {
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
 
-    if (email_array.includes(email) && password === "purpleorchid123!") {
+    if (email_array.includes(email) && password === "orchid2024") {
         window.location.href = "https://harvardoaasis.com/internal";
     } else {
         alert("Invalid information");
