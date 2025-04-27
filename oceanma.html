@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width initial-scale=1.0">
+    <title> Sisters </title>
+    <link rel="shortcut icon" type="image/jpg" href="pictures/oaasis_icon.png"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <script src="http://kit.fontawesome.com/2550a92b94.js" crossorgin="anonymous"></script>
+  </head>
+  <body>
+    <section class="sister-header">
+      <nav>
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="sisters.html">SISTERS</a></li>
+            <li><a href="membership.html">MEMBERSHIP</a></li>
+            <li><a href="alumni.html">ALUMNI</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Sisters</h1>
+    </section>
+
+    <section class="membership-about">
+      <div class="row">
+        <div class="mem_col">
+          <img src="sispics/oceanma.png">
+        </div>
+        <div class="mem_col">
+          <h2>Ocean Ma</h2>
+          <h2 style="font-size:15px">(she/her)</h2>
+          <p></p>
+
+          <h5>Concentration: <h7>Applied Math in Economics</h7></h5>
+          <h5>Secondary: <h7>Computer Science</h7></h5>
+          <h5>Hometown: <h7>Richmond, BC, Canada</h7></h5>
+          <h5>Organizations: <h7>Varsity Women’s Squash Team; CBE; Harvard Undergraduate Association</h7></h5>
+          <h5>Hobbies: <h7>Squash; basketball; volleyball; going to the gym; skiing</h7></h5>
+          <h5>Favorite part of comp: <h7>Meeting all the wonderful and interesting sisters!</h7></h5>
+          <h5>Free afternoon: <h7>Lay on the beach or play sports with friends!</h7></h5>
+          <h5>3 ways to your heart: <h7>Sunset; acoustic music; corn cheese</h7></h5>
+          <h5>Favorite TV show: <h7>The Queen’s Gambit</h7></h5>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <h4>Connect With Us</h4>
+      <div class="icons">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/HarvardOAASIS"><i style="color:#000;" class="fab fa-facebook"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/harvardoaasis/"><i style="color:#000;" class="fab fa-instagram"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/groups/6787928/"><i style="color:#000;" class="fab fa-linkedin"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="mailto:oaasis.harvard.gmail.com"><i style="color:#000;" class="far fa-envelope"></i></a>
+      </div>
+      <p>Harvard OAASIS | <i class="far fa-copyright"></i> 2023</p>
+    </section>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){ navLinks.style.right = "0"; }
+      function hideMenu(){ navLinks.style.right = "-200px"; }
+    </script>
+  </body>
+</html>
