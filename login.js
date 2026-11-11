@@ -43,7 +43,8 @@ const email_array = ["meiyiyan@college.harvard.edu",
     "laurenkim1@college.harvard.edu",
     "pbalachundhar@college.harvard.edu",
     "spillai@college.harvard.edu",
-    "tple@college.harvard.edu"]
+    "tple@college.harvard.edu",
+    "josephineyoo@college.harvard.edu",]
 function auth() {
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
