@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isha Nagajothi</title>
+    <link rel="shortcut icon" type="image/png" href="pictures/oaasis_icon.png"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <script src="https://kit.fontawesome.com/2550a92b94.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<section class="sister-header">
+    <nav>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="sisters.html">SISTERS</a></li>
+                <li><a href="membership.html">MEMBERSHIP</a></li>
+                <li><a href="alumni.html">ALUMNI</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Isha Nagajothi</h1>
+</section>
+
+<!-- ------------------------ info ------------------------ -->
+
+<section class="membership-about">
+    <div class="row">
+        <div class="mem_col">
+            <img src="sispics/ishanagajothi.jpeg" alt="Isha Nagajothi">
+        </div>
+
+        <div class="mem_col">
+            <h2>Isha Nagajothi</h2>
+            <h2 style="font-size:15px">[she/her]</h2>
+
+            <h5>Concentration: <h7>Economics and Neuroscience</h7></h5>
+            <h5>Hometown: <h7>North Canton, Ohio</h7></h5>
+            <h5>Organizations: <h7>Harvard University Bhangra, South Asian Women’s Collective, Dharma, Women in Medicine, club pickleball</h7></h5>
+            <h5>Hobbies: <h7>Baking, reading, and playing tennis</h7></h5>
+            <h5>Best gift I've ever received <h7>A full set of Disney princess themed plastic heels </h7></h5>
+            <h5>Favorite Dhall Hack: <h7>Cucumber salad</h7></h5>
+        </div>
+    </div>
+</section>
+
+<!-- ------------------------ footer ------------------------ -->
+
+<section class="footer">
+    <h4>Connect With Us</h4>
+
+    <div class="icons">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/HarvardOAASIS">
+            <i style="color: #000;" class="fab fa-facebook"></i>
+        </a>
+
+        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/harvardoaasis/">
+            <i style="color: #000;" class="fab fa-instagram"></i>
+        </a>
+
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/groups/6787928/">
+            <i style="color: #000;" class="fab fa-linkedin"></i>
+        </a>
+
+        <a target="_blank" rel="noopener noreferrer" href="mailto:oaasis.harvard@gmail.com">
+            <i style="color: #000;" class="far fa-envelope"></i>
+        </a>
+    </div>
+
+    <p>
+        Harvard OAASIS | <i class="far fa-copyright"></i> 2023
+    </p>
+</section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
